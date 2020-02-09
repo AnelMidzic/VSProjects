@@ -1,0 +1,49 @@
+﻿@model IEnumerable<WebCorePogledi.Models.Osoba>
+
+@{
+    ViewData["Title"] = "Lista osoba";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-controller="Osoba" asp-action="Create">Nova osoba</a>
+    @*<a href="/Osoba/Create">Nova osoba</a>*@
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Ime
+            </th>
+            <th>
+                Prezime
+            </th>
+            <th>
+                Telefon
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (Osoba os in Model) {
+        <tr>
+            <td>
+                @os.Ime
+            </td>
+            <td>
+                @os.Prezime
+            </td>
+            <td>
+                @os.Telefon
+            </td>
+            <td>
+                @*<a asp-action="Edit" asp-route-id="@os.OsobaId">Promijeni</a>*@
+                <a href="@($"/Osoba/Edit/{os.OsobaId}")">Promijeni</a>|
+                <a asp-action="Details" asp-route-id="@os.OsobaId">Detalji</a> |
+                <a asp-action="Delete" asp-route-id="@os.OsobaId">Obrisi</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

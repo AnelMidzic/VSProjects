@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfVideoKlub.Views.Filmovi.WindowFilmPromjena"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfVideoKlub.Views.Filmovi"
+        mc:Ignorable="d"
+        Title="WindowFilmPromjena" Height="300" Width="400" WindowStartupLocation="CenterOwner" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="140"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="25,12,0,0" TextWrapping="Wrap" Text="Naziv:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="25,12,0,0" TextWrapping="Wrap" Text="Zanr:" VerticalAlignment="Top" Grid.Row="1"/>
+        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="25,12,0,0" TextWrapping="Wrap" Text="Reziser:" VerticalAlignment="Top" Grid.Row="2"/>
+        <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="25,12,0,0" TextWrapping="Wrap" Text="Godina" VerticalAlignment="Top" Grid.Row="3"/>
+        <TextBox x:Name="TextBoxNaziv" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="20,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="155"/>
+        <TextBox x:Name="TextBoxReziser" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="20,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="155" Grid.Row="2"/>
+        <TextBox x:Name="TextBoxGodina" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="20,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="155" Grid.Row="3"/>
+        <Button x:Name="ButtonPotvrdi" Content="Potvrdi" Grid.Column="1" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="4" VerticalAlignment="Top" Width="75" Click="ButtonPotvrdi_Click"/>
+        <Button x:Name="ButtonOdustani" Content="Odustani" Grid.Column="1" HorizontalAlignment="Left" Margin="100,10,0,0" Grid.Row="4" VerticalAlignment="Top" Width="75" Click="ButtonOdustani_Click"/>
+        <ComboBox x:Name="ComboBox1" Grid.Column="1" HorizontalAlignment="Left" Margin="20,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="155"/>
+    </Grid>
+</Window>

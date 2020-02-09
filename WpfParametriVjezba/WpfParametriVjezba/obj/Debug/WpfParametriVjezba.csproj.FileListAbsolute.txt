@@ -1,0 +1,15 @@
+C:\Users\Anel\source\repos\WpfParametriVjezba\WpfParametriVjezba\bin\Debug\WpfParametriVjezba.exe.config
+C:\Users\Anel\source\repos\WpfParametriVjezba\WpfParametriVjezba\bin\Debug\WpfParametriVjezba.exe
+C:\Users\Anel\source\repos\WpfParametriVjezba\WpfParametriVjezba\bin\Debug\WpfParametriVjezba.pdb
+C:\Users\Anel\source\repos\WpfParametriVjezba\WpfParametriVjezba\obj\Debug\WpfParametriVjezba.csprojAssemblyReference.cache
+C:\Users\Anel\source\repos\WpfParametriVjezba\WpfParametriVjezba\obj\Debug\MainWindow.g.cs
+C:\Users\Anel\source\repos\WpfParametriVjezba\WpfParametriVjezba\obj\Debug\App.g.cs
+C:\Users\Anel\source\repos\WpfParametriVjezba\WpfParametriVjezba\obj\Debug\WpfParametriVjezba_MarkupCompile.cache
+C:\Users\Anel\source\repos\WpfParametriVjezba\WpfParametriVjezba\obj\Debug\WpfParametriVjezba_MarkupCompile.lref
+C:\Users\Anel\source\repos\WpfParametriVjezba\WpfParametriVjezba\obj\Debug\MainWindow.baml
+C:\Users\Anel\source\repos\WpfParametriVjezba\WpfParametriVjezba\obj\Debug\WpfParametriVjezba.g.resources
+C:\Users\Anel\source\repos\WpfParametriVjezba\WpfParametriVjezba\obj\Debug\WpfParametriVjezba.Properties.Resources.resources
+C:\Users\Anel\source\repos\WpfParametriVjezba\WpfParametriVjezba\obj\Debug\WpfParametriVjezba.csproj.GenerateResource.cache
+C:\Users\Anel\source\repos\WpfParametriVjezba\WpfParametriVjezba\obj\Debug\WpfParametriVjezba.csproj.CoreCompileInputs.cache
+C:\Users\Anel\source\repos\WpfParametriVjezba\WpfParametriVjezba\obj\Debug\WpfParametriVjezba.exe
+C:\Users\Anel\source\repos\WpfParametriVjezba\WpfParametriVjezba\obj\Debug\WpfParametriVjezba.pdb

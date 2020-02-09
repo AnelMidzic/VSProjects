@@ -1,0 +1,53 @@
+﻿<Window x:Class="WpfKorpa2019.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfKorpa2019"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Button x:Name="ButtonNova" Content="Nova kupovina" HorizontalAlignment="Left" Margin="34,25,0,0" VerticalAlignment="Top" Width="167" Click="ButtonNova_Click"/>
+        <GroupBox x:Name="GroupBox1" Header="Kupovina" HorizontalAlignment="Left" Height="650" Margin="34,83,0,0" VerticalAlignment="Top" Width="720" RenderTransformOrigin="0.5,0.5">
+            <Grid>
+                <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="79,16,0,0" TextWrapping="Wrap" Text="Odaberi kupca" VerticalAlignment="Top"/>
+                <ComboBox x:Name="ComboBox1" HorizontalAlignment="Center" Margin="195,10,195,0" VerticalAlignment="Top" Width="318"/>
+                <ListBox x:Name="ListBox1" HorizontalAlignment="Left" Height="139" Margin="195,37,0,0" VerticalAlignment="Top" Width="318" SelectionChanged="ListBox1_SelectionChanged"/>
+                <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="79,93,0,0" TextWrapping="Wrap" Text="Odaberi proizvod" VerticalAlignment="Top"/>
+                <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="79,190,0,0" TextWrapping="Wrap" Text="Cijena" VerticalAlignment="Top"/>
+                <TextBlock x:Name="TextBlockCijena" HorizontalAlignment="Left" Margin="195,193,0,0" TextWrapping="Wrap" Text="Cijena" VerticalAlignment="Top" />
+                <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="79,251,0,0" TextWrapping="Wrap" Text="Kolicina" VerticalAlignment="Top"/>
+                <TextBox x:Name="TextBoxKolicina" HorizontalAlignment="Left" Height="23" Margin="195,244,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="187"/>
+                <Button x:Name="ButtonDodaj" Content="Ubaci u korupu" HorizontalAlignment="Left" Margin="407,247,0,0" VerticalAlignment="Top" Width="106" Click="ButtonDodaj_Click"/>
+                <DataGrid x:Name="DataGrid1" HorizontalAlignment="Left" Height="246" Margin="10,293,0,0" VerticalAlignment="Top" Width="688" AutoGenerateColumns="False" SelectionMode="Single" SelectionUnit="FullRow" AlternationCount="2" IsReadOnly="True">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Id" Width="50" Binding="{Binding Path=ProizvodId}"/>
+                        <DataGridTextColumn Header="Naziv" Width="150" Binding="{Binding Path=Naziv}"/>
+                        <DataGridTextColumn Header="Cijena" Width="100" Binding="{Binding Path=Cena}"/>
+                        <DataGridTextColumn Header="Kolicina" Width="100" Binding="{Binding Path=Kolicina}"/>
+                        <DataGridTemplateColumn Header="Promijeni" Width="90">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Name="Button1" Content="Promijeni" CommandParameter="{Binding Path=ProizvodId}" Click="Button1_Click"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                        <DataGridTemplateColumn Header="Obrisi" Width="90">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Name="Button2" Content="Obrisi" CommandParameter="{Binding Path=ProizvodId}" Click="Button2_Click"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+                <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="79,558,0,0" TextWrapping="Wrap" Text="Vrijednost korpe" VerticalAlignment="Top"/>
+                <TextBlock x:Name="TextBlockVrijednost" HorizontalAlignment="Left" Margin="195,558,0,0" TextWrapping="Wrap" Text="Vrijednost" VerticalAlignment="Top"/>
+                <Button x:Name="ButtonKupi" Content="Kupi" HorizontalAlignment="Left" Margin="79,598,0,0" VerticalAlignment="Top" Width="75" Click="ButtonKupi_Click"/>
+                <Button x:Name="ButtonOdustani" Content="Odustani" HorizontalAlignment="Left" Margin="438,598,0,0" VerticalAlignment="Top" Width="75" Click="ButtonOdustani_Click"/>
+
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

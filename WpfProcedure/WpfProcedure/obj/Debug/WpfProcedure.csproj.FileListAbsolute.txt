@@ -1,0 +1,15 @@
+C:\Users\Anel\source\repos\WpfProcedure\WpfProcedure\bin\Debug\WpfProcedure.exe.config
+C:\Users\Anel\source\repos\WpfProcedure\WpfProcedure\bin\Debug\WpfProcedure.exe
+C:\Users\Anel\source\repos\WpfProcedure\WpfProcedure\bin\Debug\WpfProcedure.pdb
+C:\Users\Anel\source\repos\WpfProcedure\WpfProcedure\obj\Debug\WpfProcedure.csprojAssemblyReference.cache
+C:\Users\Anel\source\repos\WpfProcedure\WpfProcedure\obj\Debug\MainWindow.g.cs
+C:\Users\Anel\source\repos\WpfProcedure\WpfProcedure\obj\Debug\App.g.cs
+C:\Users\Anel\source\repos\WpfProcedure\WpfProcedure\obj\Debug\WpfProcedure_MarkupCompile.cache
+C:\Users\Anel\source\repos\WpfProcedure\WpfProcedure\obj\Debug\WpfProcedure_MarkupCompile.lref
+C:\Users\Anel\source\repos\WpfProcedure\WpfProcedure\obj\Debug\MainWindow.baml
+C:\Users\Anel\source\repos\WpfProcedure\WpfProcedure\obj\Debug\WpfProcedure.g.resources
+C:\Users\Anel\source\repos\WpfProcedure\WpfProcedure\obj\Debug\WpfProcedure.Properties.Resources.resources
+C:\Users\Anel\source\repos\WpfProcedure\WpfProcedure\obj\Debug\WpfProcedure.csproj.GenerateResource.cache
+C:\Users\Anel\source\repos\WpfProcedure\WpfProcedure\obj\Debug\WpfProcedure.csproj.CoreCompileInputs.cache
+C:\Users\Anel\source\repos\WpfProcedure\WpfProcedure\obj\Debug\WpfProcedure.exe
+C:\Users\Anel\source\repos\WpfProcedure\WpfProcedure\obj\Debug\WpfProcedure.pdb

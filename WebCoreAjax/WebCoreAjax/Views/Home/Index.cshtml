@@ -1,0 +1,67 @@
+﻿@model IEnumerable<WebCoreAjax.Models.Kategorija>
+
+@{
+    ViewData["Title"] = "Ajax filtriranje";
+}
+
+    <div class="row">
+        <div class="col-md-6">
+            <form action="/" method="get">
+                <div class="form-group">
+                    <label for="Select1">Odaberi kategoriju</label>
+                    <select id="Select1" class="form-control">
+                        <option value="0">Svi proizvodi</option>
+                        @foreach (Kategorija k in Model)
+                        {
+                            <option value="@k.KategorijaId">@k.Naziv</option>
+                        }
+                    </select>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-6">
+            <p id="p1">
+
+            </p>
+        </div>
+    </div>
+
+@section Scripts{
+    <script>
+        function PrikaziProizvode(id) {
+
+            $("#p1").html("");
+
+            var zahtjev = $.getJSON("/Home/VratiProizvode/" + id);
+
+            zahtjev.done(function (proizvodi) {
+                if (proizvodi.length > 0) {
+
+                    for (var i in proizvodi) {
+                        $("#p1").append(proizvodi[i].naziv + "<br>");
+                    }
+                }
+                else {
+                    $("#p1").html("Ne postoje proizvode izabrane kategorije");
+                }
+            });
+
+            zahtjev.fail(function (gr) {
+                $("#p1").html(gr.statusText);
+            });
+        }
+
+        $(function () {
+            PrikaziProizvode(0);
+
+            $("#Select1").change(function () {
+                var id = $("#Select1").val();
+
+                PrikaziProizvode(id);
+            });
+        });
+    </script>
+}

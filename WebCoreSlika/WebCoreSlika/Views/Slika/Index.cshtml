@@ -1,0 +1,85 @@
+﻿@model IEnumerable<WebCoreSlika.Models.Slika>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Nova slika</a>
+</p>
+@*<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Naziv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BinarniPodaci)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TipFajla)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Opis)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Naziv)
+                </td>
+                <td>
+                    <img src="@($"/Slika/CitajSliku/{item.SlikaId}")" width="200" height="150" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TipFajla)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Opis)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.SlikaId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.SlikaId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.SlikaId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>*@
+
+@foreach (var sl in Model)
+{
+<div class="slika">
+    <img src="@($"/Slika/CitajSliku/{sl.SlikaId}")" alt="" />
+    <p>
+        <a asp-action="Details" asp-route-id="@sl.SlikaId">Detalji</a> |
+        <a asp-action="Delete" asp-route-id="@sl.SlikaId">Obrisi</a> |
+        <a asp-action="Edit" asp-route-id="@sl.SlikaId">Promijeni</a>
+    </p>
+</div>
+}
+
+@section Styles{
+    <style>
+        div.slika {
+            width: 230px;
+            border-radius: 5px;
+            border: 1px solid red;
+            padding: 10px;
+            float: left;
+            margin: 10px;
+        }
+
+            div.slika img {
+                width: 200px;
+                height: 150px;
+                margin-bottom: 10px;
+            }
+    </style>
+}

@@ -1,0 +1,9 @@
+C:\Users\Anel\source\repos\WpfAdministaracija01\Admin.ViewModel\bin\Debug\Admin.ViewModel.dll
+C:\Users\Anel\source\repos\WpfAdministaracija01\Admin.ViewModel\bin\Debug\Admin.ViewModel.pdb
+C:\Users\Anel\source\repos\WpfAdministaracija01\Admin.ViewModel\bin\Debug\AdminModel.dll
+C:\Users\Anel\source\repos\WpfAdministaracija01\Admin.ViewModel\bin\Debug\AdminModel.pdb
+C:\Users\Anel\source\repos\WpfAdministaracija01\Admin.ViewModel\obj\Debug\Admin.ViewModel.csprojAssemblyReference.cache
+C:\Users\Anel\source\repos\WpfAdministaracija01\Admin.ViewModel\obj\Debug\Admin.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\Anel\source\repos\WpfAdministaracija01\Admin.ViewModel\obj\Debug\Admin.ViewModel.csproj.CopyComplete
+C:\Users\Anel\source\repos\WpfAdministaracija01\Admin.ViewModel\obj\Debug\Admin.ViewModel.dll
+C:\Users\Anel\source\repos\WpfAdministaracija01\Admin.ViewModel\obj\Debug\Admin.ViewModel.pdb

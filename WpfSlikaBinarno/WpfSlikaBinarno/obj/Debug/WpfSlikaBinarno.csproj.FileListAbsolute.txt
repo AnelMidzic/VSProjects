@@ -1,0 +1,17 @@
+C:\Users\Anel\source\repos\WpfSlikaBinarno\WpfSlikaBinarno\bin\Debug\WpfSlikaBinarno.exe.config
+C:\Users\Anel\source\repos\WpfSlikaBinarno\WpfSlikaBinarno\bin\Debug\WpfSlikaBinarno.exe
+C:\Users\Anel\source\repos\WpfSlikaBinarno\WpfSlikaBinarno\bin\Debug\WpfSlikaBinarno.pdb
+C:\Users\Anel\source\repos\WpfSlikaBinarno\WpfSlikaBinarno\bin\Debug\Dapper.dll
+C:\Users\Anel\source\repos\WpfSlikaBinarno\WpfSlikaBinarno\bin\Debug\Dapper.xml
+C:\Users\Anel\source\repos\WpfSlikaBinarno\WpfSlikaBinarno\obj\Debug\WpfSlikaBinarno.csprojAssemblyReference.cache
+C:\Users\Anel\source\repos\WpfSlikaBinarno\WpfSlikaBinarno\obj\Debug\MainWindow.g.cs
+C:\Users\Anel\source\repos\WpfSlikaBinarno\WpfSlikaBinarno\obj\Debug\App.g.cs
+C:\Users\Anel\source\repos\WpfSlikaBinarno\WpfSlikaBinarno\obj\Debug\WpfSlikaBinarno_MarkupCompile.cache
+C:\Users\Anel\source\repos\WpfSlikaBinarno\WpfSlikaBinarno\obj\Debug\WpfSlikaBinarno_MarkupCompile.lref
+C:\Users\Anel\source\repos\WpfSlikaBinarno\WpfSlikaBinarno\obj\Debug\MainWindow.baml
+C:\Users\Anel\source\repos\WpfSlikaBinarno\WpfSlikaBinarno\obj\Debug\WpfSlikaBinarno.g.resources
+C:\Users\Anel\source\repos\WpfSlikaBinarno\WpfSlikaBinarno\obj\Debug\WpfSlikaBinarno.Properties.Resources.resources
+C:\Users\Anel\source\repos\WpfSlikaBinarno\WpfSlikaBinarno\obj\Debug\WpfSlikaBinarno.csproj.GenerateResource.cache
+C:\Users\Anel\source\repos\WpfSlikaBinarno\WpfSlikaBinarno\obj\Debug\WpfSlikaBinarno.csproj.CopyComplete
+C:\Users\Anel\source\repos\WpfSlikaBinarno\WpfSlikaBinarno\obj\Debug\WpfSlikaBinarno.exe
+C:\Users\Anel\source\repos\WpfSlikaBinarno\WpfSlikaBinarno\obj\Debug\WpfSlikaBinarno.pdb

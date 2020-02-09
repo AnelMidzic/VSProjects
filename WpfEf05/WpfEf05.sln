@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfEf05", "WpfEf05\WpfEf05.csproj", "{47981A19-D8AA-4025-8644-E98E45FF6A25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47981A19-D8AA-4025-8644-E98E45FF6A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47981A19-D8AA-4025-8644-E98E45FF6A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47981A19-D8AA-4025-8644-E98E45FF6A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47981A19-D8AA-4025-8644-E98E45FF6A25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38EE80E2-C781-4DDA-ACE7-4D7EA74915B6}
+	EndGlobalSection
+EndGlobal

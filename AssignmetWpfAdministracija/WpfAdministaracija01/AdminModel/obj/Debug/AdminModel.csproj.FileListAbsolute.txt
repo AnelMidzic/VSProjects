@@ -1,0 +1,6 @@
+C:\Users\Anel\source\repos\WpfAdministaracija01\AdminModel\bin\Debug\AdminModel.dll
+C:\Users\Anel\source\repos\WpfAdministaracija01\AdminModel\bin\Debug\AdminModel.pdb
+C:\Users\Anel\source\repos\WpfAdministaracija01\AdminModel\obj\Debug\AdminModel.csprojAssemblyReference.cache
+C:\Users\Anel\source\repos\WpfAdministaracija01\AdminModel\obj\Debug\AdminModel.csproj.CoreCompileInputs.cache
+C:\Users\Anel\source\repos\WpfAdministaracija01\AdminModel\obj\Debug\AdminModel.dll
+C:\Users\Anel\source\repos\WpfAdministaracija01\AdminModel\obj\Debug\AdminModel.pdb

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<WebCoreFiltriranje.Models.Kategorija>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+
+<table class="table table-bordered table-striped" >
+    <thead>
+        <tr>
+            <th>
+                Naziv
+            </th>
+            <th>
+                Opis
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (Kategorija k in Model) {
+        <tr>
+            <td>
+                @k.Naziv
+            </td>
+            <td>
+                @k.Opis
+            </td>
+            <td>
+                <a href="@($"/Home/VratiProizvode/{k.KategorijaId}")">Vidi proizvode</a>
+                
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
