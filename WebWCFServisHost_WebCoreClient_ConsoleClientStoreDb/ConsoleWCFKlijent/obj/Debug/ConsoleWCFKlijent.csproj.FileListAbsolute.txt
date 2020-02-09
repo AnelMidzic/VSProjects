@@ -1,0 +1,6 @@
+C:\Users\anelm\source\repos\WebWCFServisHost\ConsoleWCFKlijent\bin\Debug\ConsoleWCFKlijent.exe.config
+C:\Users\anelm\source\repos\WebWCFServisHost\ConsoleWCFKlijent\bin\Debug\ConsoleWCFKlijent.exe
+C:\Users\anelm\source\repos\WebWCFServisHost\ConsoleWCFKlijent\bin\Debug\ConsoleWCFKlijent.pdb
+C:\Users\anelm\source\repos\WebWCFServisHost\ConsoleWCFKlijent\obj\Debug\ConsoleWCFKlijent.csprojAssemblyReference.cache
+C:\Users\anelm\source\repos\WebWCFServisHost\ConsoleWCFKlijent\obj\Debug\ConsoleWCFKlijent.exe
+C:\Users\anelm\source\repos\WebWCFServisHost\ConsoleWCFKlijent\obj\Debug\ConsoleWCFKlijent.pdb

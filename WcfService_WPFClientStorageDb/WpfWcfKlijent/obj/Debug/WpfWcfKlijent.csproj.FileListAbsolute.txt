@@ -1,0 +1,14 @@
+C:\Users\anelm\source\repos\WcfServiceAplikacija\WpfWcfKlijent\bin\Debug\WpfWcfKlijent.exe.config
+C:\Users\anelm\source\repos\WcfServiceAplikacija\WpfWcfKlijent\bin\Debug\WpfWcfKlijent.exe
+C:\Users\anelm\source\repos\WcfServiceAplikacija\WpfWcfKlijent\bin\Debug\WpfWcfKlijent.pdb
+C:\Users\anelm\source\repos\WcfServiceAplikacija\WpfWcfKlijent\obj\Debug\WpfWcfKlijent.csprojAssemblyReference.cache
+C:\Users\anelm\source\repos\WcfServiceAplikacija\WpfWcfKlijent\obj\Debug\MainWindow.g.cs
+C:\Users\anelm\source\repos\WcfServiceAplikacija\WpfWcfKlijent\obj\Debug\App.g.cs
+C:\Users\anelm\source\repos\WcfServiceAplikacija\WpfWcfKlijent\obj\Debug\WpfWcfKlijent_MarkupCompile.cache
+C:\Users\anelm\source\repos\WcfServiceAplikacija\WpfWcfKlijent\obj\Debug\WpfWcfKlijent_MarkupCompile.lref
+C:\Users\anelm\source\repos\WcfServiceAplikacija\WpfWcfKlijent\obj\Debug\MainWindow.baml
+C:\Users\anelm\source\repos\WcfServiceAplikacija\WpfWcfKlijent\obj\Debug\WpfWcfKlijent.g.resources
+C:\Users\anelm\source\repos\WcfServiceAplikacija\WpfWcfKlijent\obj\Debug\WpfWcfKlijent.Properties.Resources.resources
+C:\Users\anelm\source\repos\WcfServiceAplikacija\WpfWcfKlijent\obj\Debug\WpfWcfKlijent.csproj.GenerateResource.cache
+C:\Users\anelm\source\repos\WcfServiceAplikacija\WpfWcfKlijent\obj\Debug\WpfWcfKlijent.exe
+C:\Users\anelm\source\repos\WcfServiceAplikacija\WpfWcfKlijent\obj\Debug\WpfWcfKlijent.pdb

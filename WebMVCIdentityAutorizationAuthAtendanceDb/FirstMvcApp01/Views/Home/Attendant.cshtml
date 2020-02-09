@@ -1,0 +1,17 @@
+﻿@model FirstMvcApp.Models.Person
+@{
+    ViewBag.Title = "Attendant Details";
+}
+
+<div class="row">
+    <div class="col-md-2">
+        <div class="thumbnail">
+            <img src="" />
+        </div>
+    </div>
+    <div class="col-md-6" style="position:absolute;left:100;bottom:10px;">
+        <h1>@Model.FirstName @Model.LastName</h1>
+        <p>@Model.DateOfBirth</p>
+    </div>
+</div>
+ 

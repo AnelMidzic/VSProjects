@@ -1,0 +1,40 @@
+﻿@using MagacinServiceReference
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model IEnumerable<KategorijaCon>
+
+@if (ViewBag.Poruka == "")
+{
+    
+}
+   
+
+    <div class="row">
+        <div class="col-md-7">
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <td>Id</td>
+                        <td>Naziv</td>
+                        <td>Opis</td>
+                        <td></td>
+                    </tr>
+                </thead>             
+                <tbody>
+
+                    @foreach (KategorijaCon k in Model)
+                    {
+                        <tr>
+                            <td>@k.KategorijaId</td>
+                            <td>@k.NazivKategorije</td>
+                            <td>@k.OpisKategorije</td>
+                            <td>
+                                <a asp-action="VratiProizvode" asp-route-id="@k.KategorijaId">Vidi proizvode</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>

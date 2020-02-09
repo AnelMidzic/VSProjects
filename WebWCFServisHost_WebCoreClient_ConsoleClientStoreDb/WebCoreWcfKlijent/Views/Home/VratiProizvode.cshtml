@@ -1,0 +1,42 @@
+﻿@model IEnumerable<MagacinServiceReference.ProizvodCon>
+@using MagacinServiceReference
+
+<h2>@ViewBag.Kategorija</h2>
+
+@if (ViewBag.Poruka == "")
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>
+                    Naziv
+                </th>
+                <th>
+                    Cijena
+                </th>
+                <th>
+                    Kolicina
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (ProizvodCon p in Model)
+            {
+                <tr>
+                    <td>
+                        @p.NazivProizvoda
+                    </td>
+                    <td>
+                        @p.Cijena
+                    </td>
+                    <td>
+                        @p.KolicinaNaLageru
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<a href="/Home/Index">Pocetna</a>
+

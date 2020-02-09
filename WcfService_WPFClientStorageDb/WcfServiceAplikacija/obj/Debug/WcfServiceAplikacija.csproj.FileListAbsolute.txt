@@ -1,0 +1,6 @@
+C:\Users\anelm\source\repos\WcfServiceAplikacija\WcfServiceAplikacija\obj\Debug\WcfServiceAplikacija.csprojAssemblyReference.cache
+C:\Users\anelm\source\repos\WcfServiceAplikacija\WcfServiceAplikacija\bin\WcfServiceAplikacija.dll.config
+C:\Users\anelm\source\repos\WcfServiceAplikacija\WcfServiceAplikacija\bin\WcfServiceAplikacija.dll
+C:\Users\anelm\source\repos\WcfServiceAplikacija\WcfServiceAplikacija\bin\WcfServiceAplikacija.pdb
+C:\Users\anelm\source\repos\WcfServiceAplikacija\WcfServiceAplikacija\obj\Debug\WcfServiceAplikacija.dll
+C:\Users\anelm\source\repos\WcfServiceAplikacija\WcfServiceAplikacija\obj\Debug\WcfServiceAplikacija.pdb

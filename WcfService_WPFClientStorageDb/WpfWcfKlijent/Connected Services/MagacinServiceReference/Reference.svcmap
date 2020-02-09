@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="001545c4-0813-4823-abbf-a910b9e75cc5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61965/MagacinService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MagacinService.xsd" MetadataType="Schema" ID="a824e258-be8f-4477-9390-ebf5dc9292d5" SourceId="1" SourceUrl="http://localhost:61965/MagacinService.svc?xsd=xsd1" />
+    <MetadataFile FileName="MagacinService1.xsd" MetadataType="Schema" ID="0a5bd077-90e3-43b7-b5de-a9b5502b1c7e" SourceId="1" SourceUrl="http://localhost:61965/MagacinService.svc?xsd=xsd2" />
+    <MetadataFile FileName="MagacinService.disco" MetadataType="Disco" ID="4190d961-4e3f-4e09-bf7d-24cbee783645" SourceId="1" SourceUrl="http://localhost:61965/MagacinService.svc?disco" />
+    <MetadataFile FileName="MagacinService.wsdl" MetadataType="Wsdl" ID="d92828d6-9bea-43ba-9978-5e5135dce04a" SourceId="1" SourceUrl="http://localhost:61965/MagacinService.svc?wsdl" />
+    <MetadataFile FileName="MagacinService2.xsd" MetadataType="Schema" ID="ee852e40-767e-4eb9-853f-beb90df79570" SourceId="1" SourceUrl="http://localhost:61965/MagacinService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

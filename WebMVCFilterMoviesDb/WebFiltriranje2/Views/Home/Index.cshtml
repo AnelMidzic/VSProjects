@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="jumbotron">
+    <h3>Filmovi</h3>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-7">
+        <form id="form1" asp-action="_TraziFilmove">
+            <div class="form-group">
+                <select id="Select1" name="id" class="form-control" asp-items="ViewBag.Zanrovi">
+                    <option value="0">Svi filmovi</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Text1"> Unesite dio naziva filma:</label>
+                <input id="Text1" type="text" name="dioNaslova" class="form-control" />
+            </div>
+
+            <button class="btn btn-primary" type="button" onclick="Pronadji()">Pronadji filmove</button>
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-7" id="div1">
+
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        function Pronadji() {
+            var podaci = $("#form1").serialize();
+            var zahtjev = $.ajax({
+                type: "GET",
+                url: "/Home/_TraziFilmove",
+                data: podaci,
+                dataType: "html"
+            });
+
+            zahtjev.done(function (htmlString) {
+                $("#div1").html(htmlString);
+            });
+
+            zahtjev.fail(function (gr) {
+                $("#div1").html(gr.statusText);
+            });
+        }
+    </script>
+}

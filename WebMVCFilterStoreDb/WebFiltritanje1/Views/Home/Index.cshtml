@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="jumbotron">
+    <h2>Proizvodi</h2>
+</div>
+
+<div class="row">
+    <div class="col-md-7">
+        <form asp-action="_TraziProizvode" data-ajax="true" data-ajax-update="#div1">
+            <div class="form-group">
+                <select id="Select1" name="KategorijaId" class="form-control" asp-items="ViewBag.Kategorije">
+                    <option value="0">Svi proizvodi</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Text1">Unesite min cijenu</label>
+                <input id="Text1" type="text" name="min" class="form-control" data-val="true" data-val-number="Unesite broj" />
+                <span data-valmsg-for="min" data-valmsg-replace="true"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="Text2">Unesite max cijenu</label>
+                <input id="Text2" type="text" name="max" class="form-control" data-val="true" data-val-number="Unesite broj" />
+                <span data-valmsg-for="max" data-valmsg-replace="true"></span>
+            </div>
+
+            <button class="btn btn-primary">Pronadji proizvode</button>
+        </form>
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-md-7" id="div1">
+
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script src="~/lib/jquery-ajax-unobtrusive/dist/jquery.unobtrusive-ajax.min.js"></script>
+}

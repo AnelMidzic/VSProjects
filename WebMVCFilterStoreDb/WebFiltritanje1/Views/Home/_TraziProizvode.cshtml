@@ -1,0 +1,43 @@
+﻿@model IEnumerable<WebFiltritanje1.Models.Proizvod>
+
+@if (ViewBag.Kategorija != "")
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>
+                    Naziv
+                </th>
+                <th>
+                    Cijena
+                </th>
+                <th>
+                    Opis
+                </th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Proizvod p in Model)
+            {
+                <tr>
+                    <td>
+                        @p.Naziv
+                    </td>
+                    <td>
+                        @p.Cena
+                    </td>
+                    <td>
+                        @p.Opis
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+<h3>Ne postoji kategorija</h3>
+}
+

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Film>
+
+@if (ViewBag.Zanr != "")
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>
+                    Naziv
+                </th>
+                <th>
+                    Godina
+                </th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Film f in Model)
+            {
+                <tr>
+                    <td>
+                        @f.Naziv
+                    </td>
+                    <td>
+                        @f.Godina
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+	{
+	         <h3>Pogresan zanr</h3>
+	}

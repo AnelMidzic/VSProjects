@@ -1,0 +1,95 @@
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Common
+@using X.PagedList.Mvc.Core
+
+@model IPagedList<Proizvod>
+
+@{
+    ViewData["Title"] = "PrikaziProizvode";
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Naziv
+            </th>
+            <th>
+                Cijena
+            </th>
+            <th>
+                Opis
+            </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+@foreach (Proizvod p in Model) {
+        <tr>
+            <td>
+                @p.Naziv
+            </td>
+            <td>
+                @p.Cena
+            </td>
+            <td>
+                @p.Opis
+            </td>
+            
+        </tr>
+}
+    </tbody>
+</table>
+
+<div class="row">
+    <div class="col-md-6">
+        Strana @Model.PageNumber od @Model.PageCount
+    </div>
+</div>
+
+@*<div class="row mt-3">
+    <div class="col-md-6">
+        @Html.PagedListPager(Model, page => Url.Action("PrikaziProizvode", new { strana = page }),
+new PagedListRenderOptionsBase
+{
+PageClasses = new string[] { "page-link" },
+UlElementClasses = new string[] { "pagination" },
+LiElementClasses = new string[] { "page-item" }
+})
+    </div>
+</div>*@
+
+<div class="row mt-3">
+    <div class="col-md-7">
+        <ul class="pagination">
+            @if (Model.PageNumber > 1)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-action="PrikaziProizvode" asp-route-strana="1">&lt;&lt;</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" asp-action="PrikaziProizvode" asp-route-strana="@(Model.PageNumber-1)">&lt;</a>
+                </li>
+            }
+
+            @for (int i = 1; i <= Model.PageCount; i++)
+            {
+                <li class="page-item @(Model.PageNumber==i? "active":"")">
+                    <a class="page-link" asp-action="PrikaziProizvode" asp-route-strana="@i">@i</a>
+                </li>
+            }
+
+            @if (Model.PageNumber < Model.PageCount)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-action="PrikaziProizvode" asp-route-strana="@(Model.PageNumber+1)">&gt;</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" asp-action="PrikaziProizvode" asp-route-strana="@(Model.PageCount)">&gt;&gt;</a>
+                </li>
+            }
+
+        </ul>
+    </div>
+</div>
