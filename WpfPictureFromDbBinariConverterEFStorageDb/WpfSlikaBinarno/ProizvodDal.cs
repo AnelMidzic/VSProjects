@@ -28,7 +28,7 @@ namespace WpfSlikaBinarno
                 }
             }
         }
-
+        //aaaa
         public static int UbaciProizvod(Proizvodi p)
         {
             string upit = @"INSERT INTO Proizvod VALUES (@Naziv, @Slika, @Opis)
